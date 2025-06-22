@@ -1,8 +1,8 @@
-\#Marketing Digital 2024-2025
+\# Marketing Digital 2024-2025
 
 
 
-\#Proyecto De Marketing Digital Repetidawres
+\# Proyecto De Marketing Digital Repetidawres
 
 <br>
 
@@ -10,7 +10,7 @@
 
 
 
-\##ÍNDICE
+\## ÍNDICE
 
 
 
@@ -26,7 +26,7 @@
 
 
 
-\### 1.Introducción al proyecto
+1.Introducción al proyecto
 
 
 
@@ -34,7 +34,7 @@ Este es un proyecto relacionado con la creación de una aplicación que gestiona
 
 
 
-\### 2.Justificación
+2.Justificación
 
 
 
@@ -42,7 +42,7 @@ Debido a la creciente importancia del marketing digital en la promoción empresa
 
 
 
-\### 3.Objetivos
+3.Objetivos
 
 
 
@@ -52,7 +52,7 @@ El objetivo general de este proyecto es diseñar y desarrollar una aplicación w
 
 
 
-\### 4.Pasos a seguir
+4.Pasos a seguir
 
 
 
@@ -142,7 +142,7 @@ Se muestra una pestaña de lo que acabará siendo la página web, esto es sólo 
 
 
 
-\### 5.Integrantes
+5\. Integrantes
 
 
 
