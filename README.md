@@ -1,8 +1,8 @@
-\# Marketing Digital 2024-2025
+# Marketing Digital 2024-2025
 
 
 
-\# Proyecto De Marketing Digital Repetidawres
+# Proyecto De Marketing Digital Repetidawres
 
 <br>
 
@@ -10,19 +10,19 @@
 
 
 
-\## ÍNDICE
+## ÍNDICE
 
 
 
 1. Introducción al proyecto
 
-2\. Justificación
+2. Justificación
 
-3\. Objetivos
+3. Objetivos
 
-4\. Pasos a seguir
+4. Pasos a seguir
 
-5\. Integrantes
+5. Integrantes
 
 
 
@@ -62,27 +62,27 @@ El objetivo general de este proyecto es diseñar y desarrollar una aplicación w
 
 4.2 Creamos el modelo relacional a mano con los atributos y relaciones y después lo pasamos a limpio en la web Miro.
 
-\[E-R](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/BD/E-R%20Marketing%20Digital.pdf)  
+[E-R](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/BD/E-R%20Marketing%20Digital.pdf)  
 
 
 
 4.3 Hicimos Los casos de uso de nuestros subsistemas y los juntamos
 
-\[C.U](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/EDE/DIAGRAMAS/CU/CasosDeUso.png)
+[C.U](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/EDE/DIAGRAMAS/CU/CasosDeUso.png)
 
 
 
-\*Los casos de uso, sirven para describir qué puede hacer un usuario en un sistema y cómo el sistema responde.
+*Los casos de uso, sirven para describir qué puede hacer un usuario en un sistema y cómo el sistema responde.
 
 
 
 4.4 Y seguidamente juntamos nuestro diagrama de Clases
 
-\[D.C](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/EDE/DIAGRAMAS/DCLASES/DCLASES.png)
+[D.C](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/EDE/DIAGRAMAS/DCLASES/DCLASES.png)
 
 
 
-\*Un DC representa las clases que tiene un programa, sus atributos, métodos y cómo estos se relacionan entre sí.
+*Un DC representa las clases que tiene un programa, sus atributos, métodos y cómo estos se relacionan entre sí.
 
 &nbsp;  
 
@@ -92,49 +92,26 @@ Lo que nos ayuda a organizar el código y entender mejor la estructura de todo e
 
 4.5 Tocaba ponerse con el código Java, para empezar a hacer funcionar por partes los subsistemas del proyecto.
 
-&nbsp;```java
+```java
+public static void añadirCampaña(Campaña campaña) {
+        campañas.add(campaña);
+    }
 
-&nbsp;
+ public void mostrarCampaña() {
+        for (int i = 0; i < campañas.size(); i++) {
+            System.out.println(campañas.get(i));
+        }
+    }
 
-&nbsp;    /\*\*
+```
 
-&nbsp;    \* Añade una nueva campaña a la lista
-
-&nbsp;    \* @param campaña Campaña a añadir a la lista
-
-&nbsp;    \*/
-
-&nbsp;   public static void añadirCampaña(Campaña campaña) {
-
-&nbsp;       campañas.add(campaña);
-
-&nbsp;   }
-
-&nbsp;   /\*\*
-
-&nbsp;    \* Muestra todas las campañas almacenadas en la lista
-
-&nbsp;    \*/
-
-&nbsp;   public void mostrarCampaña() {
-
-&nbsp;       for (int i = 0; i < campañas.size(); i++) {
-
-&nbsp;           System.out.println(campañas.get(i));
-
-&nbsp;       }
-
-&nbsp;   }
-
-&nbsp;  ```
-
-\* En este pequeño bloque de Código de una de las clases, se ven dos métodos en la que una añade campañas y la otra muestra las campañas creadas.
+* En este pequeño bloque de Código de una de las clases, se ven dos métodos en la que una añade campañas y la otra muestra las campañas creadas.
 
 
 
 4.6  Y para acabar con este pequeño resumen, en este enlace
 
-\[WF](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/LDM/Wireframe%20Melissa\_Actualizado.pdf)
+[WF](https://github.com/merymelissa/marketingDigitalMelissa/blob/main/MelissaVeliz-Proyecto/Actividades/LDM/Wireframe%20Melissa\_Actualizado.pdf)
 
 
 
@@ -142,27 +119,13 @@ Se muestra una pestaña de lo que acabará siendo la página web, esto es sólo 
 
 
 
-5\. Integrantes
+5. Integrantes
 
-
-
- \* Miriam Guisado
-
-
-
-&nbsp;\* Paco Olmo
-
-&nbsp;  
-
-&nbsp;\* Jorge Quetglas
-
-&nbsp;  
-
-&nbsp;\* Richard Rebull
-
-&nbsp;  
-
-&nbsp;\* Melissa Veliz
+ * Miriam Guisado
+ * Paco Olmo
+ * Jorge Quetglas
+ * Richard Rebull
+ * Melissa Veliz
 
 
 
